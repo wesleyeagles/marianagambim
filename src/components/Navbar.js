@@ -6,7 +6,6 @@ import { BsFacebook } from 'react-icons/bs'
 import { BsInstagram } from 'react-icons/bs'
 import { BsLinkedin } from 'react-icons/bs'
 import { GiHamburgerMenu } from 'react-icons/gi'
-import { useState } from 'react';
 
 const menuMobile = document.getElementById('menu-mobile')
 
