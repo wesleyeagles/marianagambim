@@ -39,7 +39,7 @@ function Navbar(props) {
             <Link to='/'> <BsLinkedin size={30} className='fill-pink-600 h-12 hover:fill-pink-300 transition-all'/>  </Link>
         </ul>
 
-        <ul id='menu-mobile' className={`flex flex-col gap-2 items-center w-full transition-all -z-10 top-24 h-0 overflow-hidden absolute lg:hidden bg-black ${isActive ? "h-60 pt-10" : null}`}>
+        <ul id='menu-mobile' className={`flex flex-col gap-2 items-center w-full transition-all z-10 top-24 h-0 overflow-hidden absolute lg:hidden bg-black ${isActive ? "h-60 pt-10" : null}`}>
            <Link to='/'><li className='text-pink-600 font-medium uppercase hover:text-pink-300 transition-all'>Sobre</li></Link>
            <Link to='/'><li className='text-pink-600 font-medium uppercase hover:text-pink-300 transition-all'>Portfólio</li></Link>
            <Link to='/'><li className='text-pink-600 font-medium uppercase hover:text-pink-300 transition-all'>Blog</li></Link>

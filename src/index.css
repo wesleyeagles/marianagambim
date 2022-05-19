@@ -6,3 +6,20 @@ body {
 
   font-family: 'Poppins', sans-serif;
 }
+
+.photos {
+
+  animation: photos 120s linear reverse infinite;
+}
+
+@keyframes photos {
+  
+  0%, 100% {
+    transform: translateX(0);
+  }
+
+  50% {
+
+    transform: translateX(-8160px);
+  }
+}
