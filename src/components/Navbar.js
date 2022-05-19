@@ -22,7 +22,7 @@ function Navbar(props) {
 
   return (
     <nav className='bg-black relative'>
-        <div className='flex items-center justify-between md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto'>
+        <div className='flex items-center justify-between container mx-auto'>
         <Link to='/' > <img className='w-48' src={Logo}/> </Link>
 
         <ul className='hidden gap-8 w-3/4 justify-end mx-9 lg:flex'>
